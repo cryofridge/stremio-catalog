@@ -1,0 +1,407 @@
+{
+  "id": "community.cryofridge.catalog",
+  "version": "1.0.0",
+  "name": "Cryofridge AIOLists",
+  "description": "Auto-updating curated lists from cryofridge using mdblist.",
+  "logo": "https://yourdomain.com/logo.png",
+  "resources": ["catalog"],
+  "types": ["movie", "series"],
+  "catalogs": [
+    {
+      "id": "netflix-tv-new",
+      "name": "Netflix TV - New",
+      "type": "series",
+      "catalog": "mdblist://?service=netflix&type=series&sort=added&from=2023"
+    },
+    {
+      "id": "netflix-tv-popular",
+      "name": "Netflix TV - Popular",
+      "type": "series",
+      "catalog": "mdblist://?service=netflix&type=series&sort=upvotes&from=2023"
+    },
+    {
+      "id": "netflix-movies-new",
+      "name": "Netflix Movies - New",
+      "type": "movie",
+      "catalog": "mdblist://?service=netflix&type=movie&sort=added&from=2023"
+    },
+    {
+      "id": "netflix-movies-popular",
+      "name": "Netflix Movies - Popular",
+      "type": "movie",
+      "catalog": "mdblist://?service=netflix&type=movie&sort=upvotes&from=2023"
+    },
+    {
+      "id": "prime-video-tv-new",
+      "name": "Prime Video TV - New",
+      "type": "series",
+      "catalog": "mdblist://?service=prime-video&type=series&sort=added&from=2023"
+    },
+    {
+      "id": "prime-video-tv-popular",
+      "name": "Prime Video TV - Popular",
+      "type": "series",
+      "catalog": "mdblist://?service=prime-video&type=series&sort=upvotes&from=2023"
+    },
+    {
+      "id": "prime-video-movies-new",
+      "name": "Prime Video Movies - New",
+      "type": "movie",
+      "catalog": "mdblist://?service=prime-video&type=movie&sort=added&from=2023"
+    },
+    {
+      "id": "prime-video-movies-popular",
+      "name": "Prime Video Movies - Popular",
+      "type": "movie",
+      "catalog": "mdblist://?service=prime-video&type=movie&sort=upvotes&from=2023"
+    },
+    {
+      "id": "disney-plus-hotstar-tv-new",
+      "name": "Disney Plus Hotstar TV - New",
+      "type": "series",
+      "catalog": "mdblist://?service=disney-plus-hotstar&type=series&sort=added&from=2023"
+    },
+    {
+      "id": "disney-plus-hotstar-tv-popular",
+      "name": "Disney Plus Hotstar TV - Popular",
+      "type": "series",
+      "catalog": "mdblist://?service=disney-plus-hotstar&type=series&sort=upvotes&from=2023"
+    },
+    {
+      "id": "disney-plus-hotstar-movies-new",
+      "name": "Disney Plus Hotstar Movies - New",
+      "type": "movie",
+      "catalog": "mdblist://?service=disney-plus-hotstar&type=movie&sort=added&from=2023"
+    },
+    {
+      "id": "disney-plus-hotstar-movies-popular",
+      "name": "Disney Plus Hotstar Movies - Popular",
+      "type": "movie",
+      "catalog": "mdblist://?service=disney-plus-hotstar&type=movie&sort=upvotes&from=2023"
+    },
+    {
+      "id": "mubi-tv-new",
+      "name": "Mubi TV - New",
+      "type": "series",
+      "catalog": "mdblist://?service=mubi&type=series&sort=added&from=2023"
+    },
+    {
+      "id": "mubi-tv-popular",
+      "name": "Mubi TV - Popular",
+      "type": "series",
+      "catalog": "mdblist://?service=mubi&type=series&sort=upvotes&from=2023"
+    },
+    {
+      "id": "mubi-movies-new",
+      "name": "Mubi Movies - New",
+      "type": "movie",
+      "catalog": "mdblist://?service=mubi&type=movie&sort=added&from=2023"
+    },
+    {
+      "id": "mubi-movies-popular",
+      "name": "Mubi Movies - Popular",
+      "type": "movie",
+      "catalog": "mdblist://?service=mubi&type=movie&sort=upvotes&from=2023"
+    },
+    {
+      "id": "criterion-channel-tv-new",
+      "name": "Criterion Channel TV - New",
+      "type": "series",
+      "catalog": "mdblist://?service=criterion-channel&type=series&sort=added&from=2023"
+    },
+    {
+      "id": "criterion-channel-tv-popular",
+      "name": "Criterion Channel TV - Popular",
+      "type": "series",
+      "catalog": "mdblist://?service=criterion-channel&type=series&sort=upvotes&from=2023"
+    },
+    {
+      "id": "criterion-channel-movies-new",
+      "name": "Criterion Channel Movies - New",
+      "type": "movie",
+      "catalog": "mdblist://?service=criterion-channel&type=movie&sort=added&from=2023"
+    },
+    {
+      "id": "criterion-channel-movies-popular",
+      "name": "Criterion Channel Movies - Popular",
+      "type": "movie",
+      "catalog": "mdblist://?service=criterion-channel&type=movie&sort=upvotes&from=2023"
+    },
+    {
+      "id": "apple-tv-plus-tv-new",
+      "name": "Apple Tv Plus TV - New",
+      "type": "series",
+      "catalog": "mdblist://?service=apple-tv-plus&type=series&sort=added&from=2023"
+    },
+    {
+      "id": "apple-tv-plus-tv-popular",
+      "name": "Apple Tv Plus TV - Popular",
+      "type": "series",
+      "catalog": "mdblist://?service=apple-tv-plus&type=series&sort=upvotes&from=2023"
+    },
+    {
+      "id": "apple-tv-plus-movies-new",
+      "name": "Apple Tv Plus Movies - New",
+      "type": "movie",
+      "catalog": "mdblist://?service=apple-tv-plus&type=movie&sort=added&from=2023"
+    },
+    {
+      "id": "apple-tv-plus-movies-popular",
+      "name": "Apple Tv Plus Movies - Popular",
+      "type": "movie",
+      "catalog": "mdblist://?service=apple-tv-plus&type=movie&sort=upvotes&from=2023"
+    },
+    {
+      "id": "max-hbo-tv-new",
+      "name": "Max Hbo TV - New",
+      "type": "series",
+      "catalog": "mdblist://?service=max-hbo&type=series&sort=added&from=2023"
+    },
+    {
+      "id": "max-hbo-tv-popular",
+      "name": "Max Hbo TV - Popular",
+      "type": "series",
+      "catalog": "mdblist://?service=max-hbo&type=series&sort=upvotes&from=2023"
+    },
+    {
+      "id": "max-hbo-movies-new",
+      "name": "Max Hbo Movies - New",
+      "type": "movie",
+      "catalog": "mdblist://?service=max-hbo&type=movie&sort=added&from=2023"
+    },
+    {
+      "id": "max-hbo-movies-popular",
+      "name": "Max Hbo Movies - Popular",
+      "type": "movie",
+      "catalog": "mdblist://?service=max-hbo&type=movie&sort=upvotes&from=2023"
+    },
+    {
+      "id": "paramount-plus-tv-new",
+      "name": "Paramount Plus TV - New",
+      "type": "series",
+      "catalog": "mdblist://?service=paramount-plus&type=series&sort=added&from=2023"
+    },
+    {
+      "id": "paramount-plus-tv-popular",
+      "name": "Paramount Plus TV - Popular",
+      "type": "series",
+      "catalog": "mdblist://?service=paramount-plus&type=series&sort=upvotes&from=2023"
+    },
+    {
+      "id": "paramount-plus-movies-new",
+      "name": "Paramount Plus Movies - New",
+      "type": "movie",
+      "catalog": "mdblist://?service=paramount-plus&type=movie&sort=added&from=2023"
+    },
+    {
+      "id": "paramount-plus-movies-popular",
+      "name": "Paramount Plus Movies - Popular",
+      "type": "movie",
+      "catalog": "mdblist://?service=paramount-plus&type=movie&sort=upvotes&from=2023"
+    },
+    {
+      "id": "hulu-tv-new",
+      "name": "Hulu TV - New",
+      "type": "series",
+      "catalog": "mdblist://?service=hulu&type=series&sort=added&from=2023"
+    },
+    {
+      "id": "hulu-tv-popular",
+      "name": "Hulu TV - Popular",
+      "type": "series",
+      "catalog": "mdblist://?service=hulu&type=series&sort=upvotes&from=2023"
+    },
+    {
+      "id": "hulu-movies-new",
+      "name": "Hulu Movies - New",
+      "type": "movie",
+      "catalog": "mdblist://?service=hulu&type=movie&sort=added&from=2023"
+    },
+    {
+      "id": "hulu-movies-popular",
+      "name": "Hulu Movies - Popular",
+      "type": "movie",
+      "catalog": "mdblist://?service=hulu&type=movie&sort=upvotes&from=2023"
+    },
+    {
+      "id": "peacock-tv-new",
+      "name": "Peacock TV - New",
+      "type": "series",
+      "catalog": "mdblist://?service=peacock&type=series&sort=added&from=2023"
+    },
+    {
+      "id": "peacock-tv-popular",
+      "name": "Peacock TV - Popular",
+      "type": "series",
+      "catalog": "mdblist://?service=peacock&type=series&sort=upvotes&from=2023"
+    },
+    {
+      "id": "peacock-movies-new",
+      "name": "Peacock Movies - New",
+      "type": "movie",
+      "catalog": "mdblist://?service=peacock&type=movie&sort=added&from=2023"
+    },
+    {
+      "id": "peacock-movies-popular",
+      "name": "Peacock Movies - Popular",
+      "type": "movie",
+      "catalog": "mdblist://?service=peacock&type=movie&sort=upvotes&from=2023"
+    },
+    {
+      "id": "adult-swim-tv-new",
+      "name": "Adult Swim TV - New",
+      "type": "series",
+      "catalog": "mdblist://?service=adult-swim&type=series&sort=added&from=2023"
+    },
+    {
+      "id": "adult-swim-tv-popular",
+      "name": "Adult Swim TV - Popular",
+      "type": "series",
+      "catalog": "mdblist://?service=adult-swim&type=series&sort=upvotes&from=2023"
+    },
+    {
+      "id": "adult-swim-movies-new",
+      "name": "Adult Swim Movies - New",
+      "type": "movie",
+      "catalog": "mdblist://?service=adult-swim&type=movie&sort=added&from=2023"
+    },
+    {
+      "id": "adult-swim-movies-popular",
+      "name": "Adult Swim Movies - Popular",
+      "type": "movie",
+      "catalog": "mdblist://?service=adult-swim&type=movie&sort=upvotes&from=2023"
+    },
+    {
+      "id": "india-tv-new",
+      "name": "India TV - New",
+      "type": "series",
+      "catalog": "mdblist://?country=IN&type=series&sort=added&from=2023"
+    },
+    {
+      "id": "india-tv-popular",
+      "name": "India TV - Popular",
+      "type": "series",
+      "catalog": "mdblist://?country=IN&type=series&sort=upvotes&from=2023"
+    },
+    {
+      "id": "india-movies-new",
+      "name": "India Movies - New",
+      "type": "movie",
+      "catalog": "mdblist://?country=IN&type=movie&sort=added&from=2023"
+    },
+    {
+      "id": "india-movies-popular",
+      "name": "India Movies - Popular",
+      "type": "movie",
+      "catalog": "mdblist://?country=IN&type=movie&sort=upvotes&from=2023"
+    },
+    {
+      "id": "uk-tv-new",
+      "name": "UK TV - New",
+      "type": "series",
+      "catalog": "mdblist://?country=GB&type=series&sort=added&from=2023"
+    },
+    {
+      "id": "uk-tv-popular",
+      "name": "UK TV - Popular",
+      "type": "series",
+      "catalog": "mdblist://?country=GB&type=series&sort=upvotes&from=2023"
+    },
+    {
+      "id": "uk-movies-new",
+      "name": "UK Movies - New",
+      "type": "movie",
+      "catalog": "mdblist://?country=GB&type=movie&sort=added&from=2023"
+    },
+    {
+      "id": "uk-movies-popular",
+      "name": "UK Movies - Popular",
+      "type": "movie",
+      "catalog": "mdblist://?country=GB&type=movie&sort=upvotes&from=2023"
+    },
+    {
+      "id": "reality-tv-new",
+      "name": "Reality TV - New",
+      "type": "other",
+      "catalog": "mdblist://?genre=reality&sort=added&from=2023"
+    },
+    {
+      "id": "reality-tv-popular",
+      "name": "Reality TV - Popular",
+      "type": "other",
+      "catalog": "mdblist://?genre=reality&sort=upvotes&from=2023"
+    },
+    {
+      "id": "animation-movie-new",
+      "name": "Animation Movies - New",
+      "type": "movie",
+      "catalog": "mdblist://?genre=animation&type=movie&sort=added&from=2023"
+    },
+    {
+      "id": "animation-movie-popular",
+      "name": "Animation Movies - Popular",
+      "type": "movie",
+      "catalog": "mdblist://?genre=animation&type=movie&sort=upvotes&from=2023"
+    },
+    {
+      "id": "animation-series-new",
+      "name": "Animation TV - New",
+      "type": "series",
+      "catalog": "mdblist://?genre=animation&type=series&sort=added&from=2023"
+    },
+    {
+      "id": "animation-series-popular",
+      "name": "Animation TV - Popular",
+      "type": "series",
+      "catalog": "mdblist://?genre=animation&type=series&sort=upvotes&from=2023"
+    },
+    {
+      "id": "anime-movie-new",
+      "name": "Anime Movies - New",
+      "type": "movie",
+      "catalog": "mdblist://?genre=anime&type=movie&sort=added&from=2023"
+    },
+    {
+      "id": "anime-movie-popular",
+      "name": "Anime Movies - Popular",
+      "type": "movie",
+      "catalog": "mdblist://?genre=anime&type=movie&sort=upvotes&from=2023"
+    },
+    {
+      "id": "anime-series-new",
+      "name": "Anime TV - New",
+      "type": "series",
+      "catalog": "mdblist://?genre=anime&type=series&sort=added&from=2023"
+    },
+    {
+      "id": "anime-series-popular",
+      "name": "Anime TV - Popular",
+      "type": "series",
+      "catalog": "mdblist://?genre=anime&type=series&sort=upvotes&from=2023"
+    },
+    {
+      "id": "documentary-movie-new",
+      "name": "Documentary Movies - New",
+      "type": "movie",
+      "catalog": "mdblist://?genre=documentary&type=movie&sort=added&from=2023"
+    },
+    {
+      "id": "documentary-movie-popular",
+      "name": "Documentary Movies - Popular",
+      "type": "movie",
+      "catalog": "mdblist://?genre=documentary&type=movie&sort=upvotes&from=2023"
+    },
+    {
+      "id": "documentary-series-new",
+      "name": "Documentary TV - New",
+      "type": "series",
+      "catalog": "mdblist://?genre=documentary&type=series&sort=added&from=2023"
+    },
+    {
+      "id": "documentary-series-popular",
+      "name": "Documentary TV - Popular",
+      "type": "series",
+      "catalog": "mdblist://?genre=documentary&type=series&sort=upvotes&from=2023"
+    }
+  ]
+}
